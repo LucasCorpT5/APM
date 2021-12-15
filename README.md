@@ -12,16 +12,16 @@ API with github oauth
 
 ### With HTTPS:
 ```git
-https://github.com/LucasCorpT5/API_Messages.git
+https://github.com/LucasCorpT5/APM.git
 ```
 ### With SSH:
 ```git
-git@github.com:LucasCorpT5/API_Messages.git
+git@github.com:LucasCorpT5/APM.git
 ```
 
 ### With GitHub CLI:
 ```git
-gh repo clone LucasCorpT5/API_Messages
+gh repo clone LucasCorpT5/APM
 ```
 
 ## Tools:
