@@ -74,9 +74,21 @@ gh repo clone LucasCorpT5/APM
 ```http
 POST /authenticate
 ```
+#### Example Request Body
+```json
+{
+"code": "ee62c274cfa46aa91736"
+}
+```
 ### Create Messages:
 ```http
 POST /messages
+```
+#### Example Request Body:
+```json
+{
+"message": "Nova mensagem"
+}
 ```
 ### Last 3 Messages:
 ```http
@@ -86,6 +98,17 @@ GET /messages/last3
 ```http
 GET /profile
 ```
+#### Example Request Body:
+```json
+{
+"code": "ee62c274cfa46aa91736"
+}
+```
+#### Example Bearer:
+```token
+Token: eyhsi28js9jHJjsodjT
+```
+
 ## Models:
 ```prisma
 model User {
