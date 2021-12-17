@@ -21,7 +21,7 @@ git clone git@github.com:LucasCorpT5/APM.git
 
 ### With GitHub CLI:
 ```git
-git clonegh repo clone LucasCorpT5/APM
+git clone gh repo clone LucasCorpT5/APM
 ```
 
 ## Tools:
