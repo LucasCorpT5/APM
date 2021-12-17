@@ -137,7 +137,7 @@ model Message {
 ## Running the project:
 ### Build Database:
 ```git
-sudo docker start nlwheat
+sudo docker --name nlwheat -p 5432:5432 -e POSTGRES_PASSWORD=docker -d -t postgres
 ```
 ### Running:
 ```bash
