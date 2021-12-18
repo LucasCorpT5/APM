@@ -30,7 +30,7 @@ git clone gh repo clone LucasCorpT5/APM
 * Express 
 * Node 
 * Axios 
-* Jsonwebtoken
+* JWT
 * Docker
 * Postgresql
 * ts-node-dev
