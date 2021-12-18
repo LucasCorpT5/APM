@@ -15,7 +15,7 @@ export function ensureAuthenticated(request: Request, response: Response, next: 
         })
     }
 
-    // bearer, token, aqui eu etou excluindo o bearer e pegando só o token
+    // bearer, token, here I am deleting the bearer and taking only the token
     const [,token ] = authToken.split(" ");
 
     try {
